@@ -6,3 +6,4 @@ for i in range(0, 12, 2):
     print(i, end=", ")
 # added this in github
 print()
+print("This is bizzare!")
