@@ -5,9 +5,12 @@ def print_even(x):
     for i in range(0, x+2, 2):
         print(i, end=", ")
 
-print ("Hello World!")
-print ("What a beautiful day!")
-print_even(10)
-# added this in github
-print()
+def main():
+    print ("Hello World!")
+    print ("What a beautiful day!")
+    print_even(10)
+    # added this in github
+    print()
 
+if __name__ == "__main__":
+    main()
